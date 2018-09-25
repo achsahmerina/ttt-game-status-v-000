@@ -52,4 +52,10 @@ def over?(board)
   else
     return false
   end
+
+  if won?(board)
+    return true
+  else
+    return false
+  end
 end
