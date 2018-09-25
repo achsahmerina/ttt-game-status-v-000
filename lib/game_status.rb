@@ -49,7 +49,7 @@ end
 
 def over?(board)
   if won?(board) || draw?(board)
-    return fase
+    return false
   else
     return true
   end
