@@ -37,11 +37,6 @@ end
 def full?(board)
   board.all? {|character| character == "X" || character == "O"}
 
-  if full?
-    return true
-  else
-    return false
-  end
 end
 
 def draw?(board)
