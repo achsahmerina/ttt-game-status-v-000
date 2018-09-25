@@ -36,6 +36,12 @@ end
 
 def full?(board)
   board.all? {|character| character == "X" || character == "O"}
+
+  if full?
+    return true
+  else
+    return false
+  end
 end
 
 def draw?(board)
@@ -52,12 +58,5 @@ def over?(board)
   else
     return false
   end
-
-  if inprogress_board = ["X", " ", "X", " ", "X", " ", "O", "O", " "]
-    return false
-  else
-    return true
-  end
-
 
 end
