@@ -52,9 +52,6 @@ def over?(board)
     return true
   elsif
     return false
-  else
-    return false
-
   end
 
 end
